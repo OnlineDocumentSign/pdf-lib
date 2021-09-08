@@ -714,7 +714,7 @@ export default class PDFTextField extends PDFField {
     if (!options) options = {};
 
     if (!('textColor' in options)) options.textColor = rgb(0, 0, 0);
-    if (!('backgroundColor' in options)) options.backgroundColor = rgb(1, 1, 1);
+    //if (!('backgroundColor' in options)) options.backgroundColor = rgb(1, 1, 1);
     if (!('borderColor' in options)) options.borderColor = rgb(0, 0, 0);
     if (!('borderWidth' in options)) options.borderWidth = 1;
 
